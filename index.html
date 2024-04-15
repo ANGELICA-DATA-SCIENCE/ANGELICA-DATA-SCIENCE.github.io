@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="./images/log.svg.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    
 
     <meta name="theme-color" content="#2091F9">
 
@@ -22,14 +23,14 @@
     <meta property="og:title" content="Consultoria Empresariales y Fiscales">
     <meta property="og:description"
         content="Nuestra consultoría en Gestión Empresarial, le otrogará optimizar sus procesos para cuidar los recursos materiales y humanos, mejorando la comunicación entre cada departamento de tu empresa. ">
-    <meta property="og:image" content="https://angelica-data-science.github.io/images/personas-que-participan">
+    <meta property="og:image" content="https://angelica-data-science.github.io/images/personas-que-participan.png">
 
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://www.asesoresempresarialesyfiscales.com/">
-    <meta property="twitter:title" content="Aprende CSS desde cero">
+    <meta property="twitter:title" content="Asesores Empresariales y Fiscales">
     <meta property="twitter:description"
         content="Nuestra consultoría en Gestión Empresarial, le otrogará optimizar sus procesos para cuidar los recursos materiales y humanos, mejorando la comunicación entre cada departamento de tu empresa. ">
-    <meta property="twitter:image" content="https://angelica-data-science.github.io/images/personas-que-participan">
+    <meta property="twitter:image" content="https://angelica-data-science.github.io/images/personas-que-participan.png">
 </head>
 
 <body>
@@ -37,23 +38,23 @@
     <header class="hero">
         <nav class="nav container">
             <div class="nav__logo">
-                <h2 class="nav__title">Asesorias Empresariales y Fiscales</h2>
+                <h2 class="nav__title" id="inicio">Asesores Empresariales y Fiscales G&P</h2>
             </div>
 
             <ul class="nav__link nav__link--menu">
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Inicio</a>
+                    <a href="#inicio" class="nav__links">Inicio</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Acerca de</a>
+                    <a href="#acercade" class="nav__links">Acerca de</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Contacto</a>
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Ubicación</a>
+                    <a href="#servicios" class="nav__links">Servicios</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Blog</a>
+                    <a href="contacto.html" class="nav__links">Contacto</a>
+                <li class="nav__items">
+                    <a href="#ubicacion" class="nav__links">Ubicación</a>
                 </li>
 
                 <img src="./images/close.svg" class="nav__close">
@@ -64,15 +65,14 @@
             </div>
         </nav>
 
-        <section class="hero__container container">
+        <section class="hero__container container" id="acercade">
             <h1 class="hero__title">Mejoramos procesos y Protegemos a tu empresa.</h1>
             <p class="hero__paragraph">Confiamos plenamente en la capacidad de nuestros profesionales para ofrecerles un servicio de la más alta calidad y acorde a las necesidades de tu empresa.</p>
-            <a href="#" class="cta">Cotiza Ahora</a>
         </section>
     </header>
 
     <main>
-        <section class="container about">
+        <section class="container about" id="servicios">
             <h2 class="subtitle">¿Qué servicios ofrecemos para tu empresa?</h2>
             <p class="about__paragraph">Nuestra consultoría en Gestión Empresarial, 
                 le otrogará optimizar sus procesos para cuidar los recursos materiales y humanos, 
@@ -122,7 +122,7 @@
             </div>
         </section>
 
-        <section class="price container">
+        <section class="price container" id="servicios">
             <h2 class="subtitle">Servicios</h2>
 
             <div class="price__table">
@@ -288,60 +288,53 @@
             <section class="questions__offer">
                 <h2 class="subtitle">¡Agenda una cita para la cotización de consultoría para tu empresa! </h2>
                 <p class="questions__copy">Pregunta con alguno de nuestros asesores o manda correo electónico en la sección de contacto.</p>
-                <a href="#" class="cta">Cotiza Ahora</a>
             </section>
         </section>
+        <section class="ubicacion container" id="ubicacion">
+            <p class="ubicacion__direccion">Ubicacion</p>
+            <h6>Ing. Roberto Gayol 113, Guadalupe Insurgentes, Gustavo A. Madero, 07870 Ciudad de México, CDMX</h6>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d940.3945278332745!2d-99.13171733050274!3d19.473748298863423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f90edb058cf1%3A0x682f571a3f6d8a1!2sIng.%20Roberto%20Gayol%20113%2C%20Guadalupe%20Insurgentes%2C%20Gustavo%20A.%20Madero%2C%2007870%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1713161863073!5m2!1ses-419!2smx" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <section class="ubicacion__container">
     </main>
 
     <footer class="footer">
-        <section class="footer__container container">
-            <nav class="nav nav--footer">
-                <h2 class="footer__title">Asesorias Empresariales y Fiscales.</h2>
-
-                <ul class="nav__link nav__link--footer">
-                    <li class="nav__items">
-                        <a href="#" class="nav__links">Inicio</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#" class="nav__links">Acerca de</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#" class="nav__links">Contacto</a>
-                    <li class="nav__items">
-                        <a href="#" class="nav__links">Ubicación</a>
-                    </li>
-                    <li class="nav__items">
-                        <a href="#" class="nav__links">Blog</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
-                <h2 class="footer__newsletter">Contacto</h2>
-                <div class="footer__inputs">
-                    <input type="email" placeholder="Email:angelicalonso2024@gmail.com" class="footer__input" name="_replyto">
-                    <input type="submit" value="Registrate" class="footer__submit">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Asesores Empresariales y Fiscales G&P</h4>
+                    <ul>
+                        <li><a href="#acercade">Acerca de</a></li>
+                        <li><a href="#servicios">nuestros servicios</a></li>
+                        <li><a href="#">política de privacidad</a></li>
+                        <li><a href="#">Empleate con nosotros</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
                 </div>
-            </form>
-        </section>
-        <section id="ubicacion">
-            <div class="container">
-                <h2>Ubicación</h2>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3761.578111306713!2d-99.1336485!3d19.4737483!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f90edb058cf1%3A0x682f571a3f6d8a1!2sIng.%20Roberto%20Gayol%20113%2C%20Guadalupe%20Insurgentes%2C%20Gustavo%20A.%20Madero%2C%2007870%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1709856395736!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div id="map"></div>
-             
+                <div class="footer-col">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#">Auditoria</a></li>
+                        <li><a href="#">Asesoria Fiscal</a></li>
+                        <li><a href="#">Plan de Negocios</a></li>
+                        <li><a href="#">Nóminas</a></li>
+                        <li><a href="#">Asesoria en Tranformación Digital</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Siguenos en redes sociales</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/angelica.alonso.583" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                        <a href="https://www.youtube.com/feed/you" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+                        <a href="https://wa.me/15525403170?text=¡Hola,%20Quiero%20más%20información%20acerca%20de%20tus%20servicios%20de%20consultoría!" class="footer__icons"><img src="./images/whatsapp-logo-24.png" class="footer__img"></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Ubicación</h4>
+                    <h5>Ing. Roberto Gayol 113, Guadalupe Insurgentes, Gustavo A. Madero, 07870 Ciudad de México, CDMX</h5>
+                </div>
             </div>
-        </section>
-
-        <section class="footer__copy container">
-            <div class="footer__social">
-                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
-                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
-            </div>
-
-            <h3 class="footer__copyright">Derechos reservados &copy; Asesorias Empresariales G&P</h3>
-        </section>
+        </div>
     </footer>
 
     <script src="./js/slider.js"></script>

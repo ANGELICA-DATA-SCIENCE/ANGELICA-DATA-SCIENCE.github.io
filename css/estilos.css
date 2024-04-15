@@ -101,6 +101,7 @@ body {
     gap: 1em;
     padding-bottom: 100px;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .hero__title {
@@ -109,6 +110,7 @@ body {
 
 .hero__paragraph {
     margin-bottom: 20px;
+    font-size: 22px;
 }
 
 .cta {
@@ -129,7 +131,7 @@ body {
 
 .subtitle {
     color: var(--color-title);
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 25px;
 }
 
@@ -357,7 +359,7 @@ body {
     padding: 30px 0 30px;
     cursor: pointer;
     color: var(--color-title);
-    justify-content: space-between;
+    
 }
 
 .questions__arrow{
@@ -393,103 +395,126 @@ body {
     margin-bottom: 30px;
 }
 
-/* Footer */
+/*ubicacion*/
 
-.footer{
-    background-color: #1D293F;
+.ubicacion{
+    text-align: center;
+    display: grid;
+    gap: 2em;
+    padding: 100px;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 30px;
 }
 
-.footer__title{
-    font-weight: 300;
-    font-size: 2rem;
+.map{
+    margin-left: 150px;
+}
+
+/*footer*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color:#1D293F;
+    padding: 50px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 10px;
+}
+.footer-col h4{
+	font-size: 16px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 250;
+	position: relative;
+}
+
+.footer-col h5{
+	font-size: 14px;
+	color: #ffffff;
+	margin-bottom: 35px;
+	font-weight: 250;
+	position: relative;
+}
+
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 14px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color:#1D293F;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
     margin-bottom: 30px;
 }
-
-.footer__title, .footer__newsletter{
-    color: #fff;
 }
-
-.container {
-    width: 80%;
-    margin: 0 auto;
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
 }
-
-#map {
-    height: 0px;
-    width: 10%;
-}
-
-
-.footer__container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 60px;
-}
-
-.nav--footer{
-    padding-bottom: 20px;
-    display: grid;
-    gap: 1em;
-    grid-auto-flow: row;
-    height: 100%;
-}
-
-.nav__link--footer{
-    display: flex;
-    margin: 0;
-    margin-right: 20px;
-    flex-wrap: wrap;
-}
-
-.footer__inputs{
-    margin-top: 10px;
-    display: flex;
-    overflow: hidden;
-}
-
-.footer__input{
-    background-color: #fff;
-    height: 50px;
-    display: block;
-    padding-left: 10px;
-    border-radius: 6px;
-    font-size: 1rem;
-    outline: none;
-    border: none;
-    margin-right: 16px;
-}
-
-.footer__submit{
-    margin-left: auto;
-    display: inline-block;
-    height: 50px;
-    padding: 0 20px ;
-    background-color: #2091F9;
-    border: none;
-    font-size: 1rem;
-    color: #fff;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-.footer__copy{
-    --padding-container: 30px 0;
-    text-align: center;
-    color: #fff;
-}
-
-.footer__copyright{
-    font-weight: 300;
-}
-
-.footer__icons{
-    margin-bottom: 10px;
-}
-
-.footer__img{
-    width: 30px;
 }
 
 /* Media queries */
