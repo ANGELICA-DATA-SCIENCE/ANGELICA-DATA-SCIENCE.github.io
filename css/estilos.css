@@ -399,13 +399,10 @@ body {
 
 .ubicacion{
     text-align:justify;
-    display: grid;
     gap: 2em;
-    padding: 100px;
     font-family: inherit;
     font-size: 40px;
     font-weight: bolder;
-    padding: 30px;
 }
 
 .map{
