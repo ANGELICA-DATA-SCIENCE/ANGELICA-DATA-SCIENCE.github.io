@@ -398,18 +398,18 @@ body {
 /*ubicacion*/
 
 .ubicacion{
-    text-align: center;
+    text-align:justify;
     display: grid;
     gap: 2em;
     padding: 100px;
     font-family: inherit;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bolder;
     padding: 30px;
 }
 
 .map{
-    margin-left: 150px;
+    display:flex;
 }
 
 /*footer*/
