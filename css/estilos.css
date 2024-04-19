@@ -395,6 +395,15 @@ body {
     margin-bottom: 30px;
 }
 
+/*unete a nosotros*/
+
+.unete_nosotros{
+    text-align: center;
+}
+
+
+
+
 /*ubicacion*/
 
 .ubicacion{
@@ -408,6 +417,8 @@ body {
 .map{
     display:flex;
 }
+
+
 
 /*footer*/
 
